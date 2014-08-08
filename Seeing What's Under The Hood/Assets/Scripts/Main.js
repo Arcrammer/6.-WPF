@@ -1,0 +1,1 @@
+document.write("The script is linked.");
