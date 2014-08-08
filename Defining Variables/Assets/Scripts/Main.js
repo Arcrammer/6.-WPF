@@ -1,2 +1,5 @@
-var age = 18;
-var beautifulLuxuryItalianCamelCaseApartmentByTheSea = "is Italian";
+var age; // declaration
+age = 18; // definition
+
+var birthYear = 1995; // declaration and definition at once
+
