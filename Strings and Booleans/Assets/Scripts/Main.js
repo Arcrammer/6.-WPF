@@ -1,1 +1,2 @@
-var isStudent = true;
+var isStudent = true; // Boolean
+var firstName = "Alexander"; // String
