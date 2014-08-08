@@ -1,1 +1,2 @@
-document.write("The script is linked.");
+var yearBorn = 1995;
+console.log(yearBorn);
