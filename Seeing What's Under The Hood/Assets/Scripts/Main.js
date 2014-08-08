@@ -1,2 +1,2 @@
 var yearBorn = 1995;
-console.log(yearBorn);
+console.log("Hello, world.");
