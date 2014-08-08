@@ -1,3 +1,4 @@
 var muppetNames = ["Kermit","Miss Piggy","Gonzo","Rizzo"];
 
-console.log(muppetNames[0],muppetNames[1]);
+muppetNames[1] = "Rizzo";
+console.log(muppetNames[1]);
