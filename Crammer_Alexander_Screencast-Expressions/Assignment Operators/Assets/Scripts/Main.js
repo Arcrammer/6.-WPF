@@ -1,4 +1,4 @@
 var a = 3;
-var a = a++;
+var a = a--;
 
 document.write(a);
