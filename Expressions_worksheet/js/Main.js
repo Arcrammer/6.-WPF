@@ -34,5 +34,19 @@ var reciept = new Array(22,41,67,32,84); // Array of grocery reciept totals
 var total = reciept[0] + reciept[1] + reciept[2] + reciept[3] + reciept[4]; // Adds the values of the array in 'reciept' then returns the value to the 'total' variable
 var average = total / 5; // Divides the total amount of reciept totals then divides by five (the amount of reciepts) to return the average to the 'average' variable
 document.write("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week.");
+document.write("<br /><br />"); // Two more line breaks, just to keep everything tidy!
 
-// document.write("Your " +  + " was originally " +  + ", but after a " +  + "% discount, it is now " +  + " without tax and " +  + " with tax.");
+// DISCOUNTS
+/* Calculate the discounted price for an item. Create an expression that will calculate the discounted price with and without sales tax. (It is acceptable for the result to have more than two digits after the decimal. $345.896 for example.) */
+
+var price = 499.99; // Original price of the item
+var discount = 20; // Used to apply discount amount, 20% in default case
+var desc = "Silver iPad Mini with Retina display"; // Item description
+var percentTax = 8; // Percentage of tax for the item
+var withTax = price - (discount / 100) * price + (percentTax / 100) * price; // Returns the discounted price of the item including tax
+var withoutTax = price - (discount / 100) * price; // Returns the discounted price of the item
+
+document.write("Your <em>" + desc + "</em> was originally $" + price + ", but after a " + discount + "% discount, it is now " + withoutTax + " without tax and " + withTax + " with tax.");
+
+/* There's likely an easier way and this is likely to provide an incorrect result.
+I'M TERRIBLE WITH MATH, PLEASE FOGIVE ME! */
