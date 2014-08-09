@@ -31,8 +31,8 @@ document.write("<br /><br />"); // Two more line breaks, just to keep everything
 /* You are budgeting your money for the year and must calculate your average weekly grocery shopping spending over the past five weeks. Store the past five grocery totals as a list in an array. Create an expression that will use the items in the array to calculate the average amount spent on groceries. */
 
 var reciept = new Array(22,41,67,32,84); // Array of grocery reciept totals
-var total = reciept[0] + reciept[1] + reciept[2] + reciept[3] + reciept[4];
-var average = total / 5;
+var total = reciept[0] + reciept[1] + reciept[2] + reciept[3] + reciept[4]; // Adds the values of the array in 'reciept' then returns the value to the 'total' variable
+var average = total / 5; // Divides the total amount of reciept totals then divides by five (the amount of reciepts) to return the average to the 'average' variable
 document.write("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week.");
 
 // document.write("Your " +  + " was originally " +  + ", but after a " +  + "% discount, it is now " +  + " without tax and " +  + " with tax.");
