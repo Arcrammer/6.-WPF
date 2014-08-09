@@ -5,4 +5,4 @@ var quizFour = 80;
 
 // Average is found by dividing the sum of the items with the amount of items
 
-var average = quizOne + quizTwo + quizThree + quizFour / 4; // Division first
+var average = (quizOne + quizTwo + quizThree + quizFour) / 4; // Division last
