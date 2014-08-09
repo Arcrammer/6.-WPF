@@ -16,7 +16,7 @@ document.write("<br /><br />"); // Two line breaks, just to keep everything tidy
 
 var pizzas = 8; // Amount of pizzas ordered
 var slicesEach = 8; // Amount of slices cut through the pizza
-var partyGuestAmount = 31; // Amount of guests at the party
+var partyGuestAmount = 32; // Amount of guests at the party
 var slicesPerGuest = pizzas * slicesEach / partyGuestAmount; // Calculates the amount each guest could have if the pizza were split among each of the guests by multiplying 'pizzas' and 'slicesEach' to find the amount of slices there are from all of the pizzas ordered then dividing the amount returned with the amount of guests at the party, stored in 'partyGuestAmount'
 document.write("Each person ate " + slicesPerGuest + " slices of pizza at the party.");
 document.write("<br /><br />"); // Two more line breaks, just to keep everything tidy!
@@ -24,5 +24,15 @@ document.write("<br /><br />"); // Two more line breaks, just to keep everything
 // SLICE OF PIE PART 2
 /* At the pizza party Sparky, the host’s dog is excited, because he gets the leftover pizza after the slices have been divided up evenly among the guests. Assume guests get whole slices, how many whole slices will Sparky feast on? */
 
-document.write("Sparky got " pizzas * slicesEach % slicesPerGuest + " slices of pizza."); // I have no idea if this is right. I've sersiouly sat here and though about how in the world I'd find the answer throughout the entire evening. Anyway, I've found the remainder of the amount of slices each guest would be given by multiplying the amount of pizza with the amount of slices in each pizza, then using the modulous operator to find the remainder of the division between the total amount of pizza slices and party guests. I apologise in advance if this is incorrect, but I'm going with it because I have no idea what else it could be!
+document.write("Sparky got " + pizzas * slicesEach % slicesPerGuest + " slices of pizza."); // I have no idea if this is right. I've sersiouly sat here and though about how in the world I'd find the answer throughout the entire evening. Anyway, I've found the remainder of the amount of slices each guest would be given by multiplying the amount of pizza with the amount of slices in each pizza, then using the modulous operator to find the remainder of the division between the total amount of pizza slices and party guests. I apologise in advance if this is incorrect, but I'm going with it because I have no idea what else it could be!
+document.write("<br /><br />"); // Two more line breaks, just to keep everything tidy!
 
+// AVERAGE SHOPPING BILL
+/* You are budgeting your money for the year and must calculate your average weekly grocery shopping spending over the past five weeks. Store the past five grocery totals as a list in an array. Create an expression that will use the items in the array to calculate the average amount spent on groceries. */
+
+var reciept = new Array(22,41,67,32,84); // Array of grocery reciept totals
+var total = reciept[0] + reciept[1] + reciept[2] + reciept[3] + reciept[4];
+var average = total / 5;
+document.write("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week.");
+
+// document.write("Your " +  + " was originally " +  + ", but after a " +  + "% discount, it is now " +  + " without tax and " +  + " with tax.");
