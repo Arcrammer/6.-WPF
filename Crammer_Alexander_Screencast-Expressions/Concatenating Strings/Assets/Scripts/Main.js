@@ -1,5 +1,5 @@
-var firstName = "Kermit";
-var lastName = "the Frog"; // I don't know if I'd call that a name xD
-var fullName = firstName + " " + lastName;
+var a = 6;
+var b = 7;
+var result = a + b;
 
-document.write(fullName);
+document.write(result);
