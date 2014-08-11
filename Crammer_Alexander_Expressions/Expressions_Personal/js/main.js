@@ -8,3 +8,7 @@
 var miles = prompt("How many miles will you be travelling?"); // Amount of miles to travel
 var mpg = prompt("What is your vehicles' fuel economy in miles per gallon?"); // Miles per gallon of your vehicle
 var capacity = prompt("What is your tank capacity in gallons?"); // Amount of gallons your vehicle can carry
+
+var gallonsNeeded = miles / mpg; // Returns the amount of gallons needed for the trip
+var refuelsNeeded = gallonsNeeded / capacity; // Returns the amount of refuels needed throughout the trip
+
