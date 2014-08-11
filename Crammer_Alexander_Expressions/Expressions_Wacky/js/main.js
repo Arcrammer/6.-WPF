@@ -12,9 +12,9 @@ var trans = prompt("Which transmission type do your trucks use? (Enter 'manual' 
 var ducksForTheTrucks = ducks / trucks; // Returns the amount of ducks for each truck
 
 if(trans == 'manual') {
-	var ducksTrans = ducksForTheTrucks + 2; // Amount of ducks to drive if manual (one duck more for the stick and another duck for the clutch)
+	var ducksTrans = ducksForTheTrucks + 2 + 3; // Amount of ducks to drive if manual (one duck more for the stick and another duck for the clutch)
+	console.log("With one duckie at each pedal, two at the wheel, one at the stick, and another at the clutch, you'll need " + ducksTrans + " duckies to drive each of your truckies.");
 } else if(trans == 'automatic') {
-	var ducksTrans = ducksForTheTrucks; // Amount of ducks to drive if automatic
+	var ducksTrans = ducksForTheTrucks + 3; // Amount of ducks to drive if automatic
+	console.log("With one duckie at each pedal and two at the wheel, you'll need " + ducksTrans + " duckies to drive each of your truckies.");
 };
-
-document.write("With one duckie at each pedal, two at the wheel, one at the stick, and another at the clutch, you'll need " + ducksTrans + " duckies to drive your truckies.");
