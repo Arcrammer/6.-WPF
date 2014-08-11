@@ -10,6 +10,6 @@ var readingPerDay = prompt("How many emails do you plan to read each day?"); // 
 var time = prompt("How many days would you like to spend reading these emails?"); // Amount of days you plan to spend reading the emails each day
 
 var toReadDaily = emails / readingPerDay; // Returns the amount of emails to be read daily
-var daysToRead = toReadDaily / 24;
+var daysToRead = 24 / toReadDaily;
 
 console.log("You'll need to read " + toReadDaily + " emails each day, so it will take " + daysToRead + " to read each of the email messages.");
