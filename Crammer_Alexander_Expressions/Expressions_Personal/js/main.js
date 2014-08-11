@@ -12,3 +12,4 @@ var capacity = prompt("What is your tank capacity in gallons?"); // Amount of ga
 var gallonsNeeded = miles / mpg; // Returns the amount of gallons needed for the trip
 var refuelsNeeded = gallonsNeeded / capacity; // Returns the amount of refuels needed throughout the trip
 
+console.log("You can make the trip with " + gallonsNeeded + " gallons of fuel, which means you'll have to refuel " + refuelsNeeded + " times."); // Outputs the results
