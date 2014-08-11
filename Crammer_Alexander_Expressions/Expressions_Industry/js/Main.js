@@ -7,5 +7,7 @@
 
 var emails = prompt("How many emails would you like to read in total?"); // Amount of emails you plan to read
 var readingPerDay = prompt("How many emails do you plan to read each day?"); // Amount of emails you plan to read each day
-var time = prompt("How much time are you going to spend reading these emails on a daily basis?"); // Amount of hours you plan to spend reading the emails each day
+var time = prompt("How many hours are you going to spend reading these emails on a daily basis?"); // Amount of hours you plan to spend reading the emails each day
 
+var hoursEachDay = 24 - time;
+var toReadDaily = emails / readingPerDay; // Returns the amount of emails to be read daily
