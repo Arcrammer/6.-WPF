@@ -11,8 +11,10 @@ var trans = prompt("Which transmission type do your trucks use? (Enter 'manual' 
 
 var ducksForTheTrucks = ducks / trucks; // Returns the amount of ducks for each truck
 
-if(toLowerCase(trans) == 'manual') {
+if(trans == 'manual') {
 	var ducksTrans = ducksForTheTrucks + 2; // Amount of ducks to drive if manual (one duck more for the stick and another duck for the clutch)
-}
+} else if(trans == 'automatic') {
+	var ducksTrans = ducksForTheTrucks; // Amount of ducks to drive if automatic
+};
 
 document.write("With one duckie at each pedal, two at the wheel, one at the stick, and another at the clutch, you'll need " + ducksTrans + " duckies to drive your truckies.");
