@@ -8,4 +8,4 @@ var totalMb = connection * downloadSize; // Multiplys the connection speed and d
 var seconds = totalMb / 60; // Returns the seconds of the download time
 var minutes = Math.round(seconds / 60); // Minutes of the download, rounded
 
-document.write(minutes); // Writes the eta in minutes to the document
+document.write("It will take around " + minutes + " minutes to download the file."); // Writes the eta in minutes to the document
