@@ -43,8 +43,8 @@ var price = 499.99; // Original price of the item
 var discount = 20; // Used to apply discount amount, 20% in default case
 var desc = "Silver iPad Mini with Retina display"; // Item description
 var percentTax = 8; // Percentage of tax for the item
-var withTax = price - (discount / 100) * price + (percentTax / 100) * price; // Returns the discounted price of the item including tax
-var withoutTax = price - (discount / 100) * price; // Returns the discounted price of the item
+var withTax = discount * price - price; // Returns the discounted price of the item including tax
+var withoutTax = discount * price - price; // Returns the discounted price of the item
 
 document.write("Your <em>" + desc + "</em> was originally $" + price + ", but after a " + discount + "% discount, it is now " + withoutTax + " without tax and " + withTax + " with tax.");
 
