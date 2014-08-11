@@ -12,4 +12,4 @@ var time = prompt("How many days would you like to spend reading these emails?")
 var toReadDaily = emails / readingPerDay; // Returns the amount of emails to be read daily
 
 
-console.log("You'll need to read " + toReadDaily + " emails each day in order to read all of the emails within ");
+console.log("You'll need to read " + toReadDaily + " emails each day in order to read all of the emails within " + time + " days.");
