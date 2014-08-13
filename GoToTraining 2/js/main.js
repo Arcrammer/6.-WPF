@@ -37,3 +37,7 @@ var yearsMore = prompt("How many years in the future would you like to know?");
 
 var futureAge = Number(yearsOld) + Number(yearsMore);
 console.log(futureAge);
+
+// Make the results look pretty
+console.log("You will be " + futureAge + " years old in " + yearsMore + " years!");
+alert("You will be " + futureAge + " years old in " + yearsMore + " years!");
