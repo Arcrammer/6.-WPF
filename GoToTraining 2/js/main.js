@@ -7,3 +7,6 @@
 
 // Ask the user for their birth year
 var yearOfBirth = prompt("Which year is your birth year?");
+
+// Output the response to the console
+console.log(yearOfBirth);
