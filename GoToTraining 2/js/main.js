@@ -21,7 +21,7 @@ var currentYear = 2014;
 console.log(yearOfBirth);
 
 // Current year minus the year they were born
-var yearsOld = currentYear - yearOfBirth;
+var yearsOld = currentYear - parseInt(yearOfBirth);
 
 // Alert the user with their age
 alert(name + ", you are " + yearsOld + " years old.");
@@ -35,5 +35,5 @@ var yearsMore = prompt("How many years in the future would you like to know?");
 
 // Calculate our future age
 
-var futureAge = yearsOld + yearsMore;
+var futureAge = parseInt(yearsOld) + parseInt(yearsMore);
 console.log(futureAge);
