@@ -5,6 +5,9 @@
 
 // Calculator to find your age
 
+// Ask the user for their name
+var name = prompt("What's your first name?");
+
 // Ask the user for their birth year
 var yearOfBirth = prompt("Which year is your birth year?");
 
