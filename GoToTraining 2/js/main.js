@@ -8,6 +8,9 @@
 // Ask the user for their name
 var name = prompt("What's your first name?");
 
+// Tell the user 'hello' and tell them what we're doing using an alert()
+alert("Welcome, " + name + "! Let's go ahead and figure out how old you are.");
+
 // Ask the user for their birth year
 var yearOfBirth = prompt("Which year is your birth year?");
 
