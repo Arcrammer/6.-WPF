@@ -11,8 +11,16 @@ var name = prompt("What's your first name?");
 // Tell the user 'hello' and tell them what we're doing using an alert()
 alert("Welcome, " + name + "! Let's go ahead and figure out how old you are.");
 
+// Current year minus the year they were born
+
 // Ask the user for their birth year
 var yearOfBirth = prompt("Which year is your birth year?");
 
+// Create a variable for the current year
+var currentYear = 2014;
+
 // Output the response to the console
 console.log(yearOfBirth);
+
+// Alert the user with their age
+alert(name + ", you are " + yearsOld + " years old.");
