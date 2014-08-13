@@ -3,4 +3,3 @@
 	GoToTraining Week 2
 	Wednesday, August 13, 2014	*/
 
-document.write("It's linked!");
