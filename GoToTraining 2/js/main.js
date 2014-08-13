@@ -31,4 +31,9 @@ alert(name + ", you are " + yearsOld + " years old.");
 // Ask the user how many years in the future they'd like to know
 var yearsMore = prompt("How many years in the future would you like to know?");
 
-consiole.log(yearsMore);
+// console.log(yearsMore);
+
+// Calculate our future age
+
+var futureAge = yearsOld + yearsMore;
+console.log(futureAge);
