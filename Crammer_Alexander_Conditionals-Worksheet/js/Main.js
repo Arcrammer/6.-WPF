@@ -20,3 +20,11 @@ if(unit === "F") {
 	// Tell the user they've entered anything other than 'F' or 'C' in 'unit'
 	console.log("You've given a value other than 'F' or 'C' in the second prompt so I'm unable to convert the tempurature.");
 }
+
+// Check the Login
+
+var username = prompt("Username:");
+var pass = prompt("Password:");
+var usernameRecord = "BeautifulUsername";
+var passRecord = "cats and unicorns";
+
