@@ -28,7 +28,7 @@ var pass = prompt("Password:\t\t(\"cats and unicorns\" is the valid password.)")
 var usernameRecord = "BeautifulUsername";
 var passRecord = "cats and unicorns";
 
-if(username === usernameRecord) {
+if(username === usernameRecord && pass === passRecord) /* I've just realised I'll need to have this in order to keep this from being executed when the user enters the correct username but incorrect password */ {
 	// Welcome the user -- If the username in the record was given
 	console.log("Welcome, " + usernameRecord + "!");
 } else if(username != usernameRecord) {
