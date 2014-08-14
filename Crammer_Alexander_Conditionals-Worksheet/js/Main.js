@@ -3,6 +3,7 @@
 	Thursday, 14 August, 2014
 	Conditionals Worksheet	*/
 
+// GROUP ONE
 // Celsius to Fahrenheit converter
 
 var degrees = prompt("Which tempurature would you like to convert?");
@@ -21,6 +22,7 @@ if(unit === "F") {
 	console.log("You've given a value other than 'F' or 'C' in the second prompt so I'm unable to convert the tempurature.");
 }
 
+// GROUP TWO
 // Check the Login
 
 var username = prompt("Username:\t\t(\"BeautifulUsername\" is the valid username.)");
@@ -38,3 +40,6 @@ if(username === usernameRecord && pass === passRecord) /* I've just realised I'l
 	// Tell the user they've entered a password which isn't in the record
 	console.log("Password does not match our records");
 }
+
+// GROUP THREE
+// 
