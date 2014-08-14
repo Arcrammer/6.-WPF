@@ -4,10 +4,10 @@
 	Screencast: Conditionals	*/
 
 var kidHeight = 50;
+var minHeight = 48;
 
 // If the child is old enough we'll print to the console "You can ride."
-if(kidHeight > 40) /* If the kid is over 48 inches of height */ {
+if(kidHeight > minHeight) /* If the kid is over 48 inches of height */ {
 	// If the condition is true
 	console.log("You can ride.");
 };
-console.log("-- this comes after --");
