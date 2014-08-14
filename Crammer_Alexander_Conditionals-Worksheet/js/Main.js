@@ -12,11 +12,11 @@ var inFahrenheit = degrees * 1.8 + 32; // The expression of this variable uses t
 
 if(unit === "F") {
 	// Convert to fahrenheit from celsius
-
+	console.log("The temperature is " + inCelsius + " degrees Celsius.");
 } else if(unit === "C") {
 	// Convert to celsius from fahrenheit
-	
+	console.log("The temperature is " + inFahrenheit + " degrees Fahrenheit.");
 } else {
 	// Tell the user they've entered anything other than 'F' or 'C' in 'unit'
-	
+	console.log("You've given a value other than 'F' or 'C' in the second prompt so I'm unable to convert the tempurature.");
 }
