@@ -1,4 +1,5 @@
 /*	Alexander Rhett Crammer
+	WPF 1408 Section 1
 	Monday, August 11, 2014
 	Assignment: Expressions	*/
 
