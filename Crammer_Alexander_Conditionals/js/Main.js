@@ -3,11 +3,10 @@
 	Thursday, 14 August, 2014.
 	Screencast: Conditionals	*/
 
-if(sunny) {
-	visitTheBeach();
-	if(warmWater) {
-		wearNewSuit();
-	}
+temp = 65;
+
+if(temp > 70) {
+	goToTheBeach();
 } else {
 	visitTheCinema();
 }
