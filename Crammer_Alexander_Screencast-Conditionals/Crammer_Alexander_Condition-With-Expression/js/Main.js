@@ -5,10 +5,10 @@
 
 var kidHeight = 47;
 var minHeight = 48;
-
+var sneakerLift = 2;
 
 // If the child is old enough we'll print to the console "You can ride."
-if(kidHeight + 2 > minHeight) /* If the kid is over 48 inches of height */ {
+if(kidHeight + sneakerLift > minHeight) /* If the kid is over 48 inches of height */ {
 	// If the condition is true
 	console.log("You can ride.");
 };
