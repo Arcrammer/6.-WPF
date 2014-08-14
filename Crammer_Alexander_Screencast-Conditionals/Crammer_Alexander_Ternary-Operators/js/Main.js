@@ -3,14 +3,14 @@
 	Thursday, 14 August, 2014.
 	Screencast: Conditionals	*/
 
-var GPA = 48
+var age = 11;
+var book;
 
-/*
-if(GPA > 2.0) {
-	console.log("You graduate!");
+// If the child is under 10 they'll be given "Green Eggs and Ham" otherwise "The Time Machine"
+if(age > 10) {
+	var book = "Green Eggs and Ham";
 } else {
-	console.log("GPA is too low.");
+	var book = "The Time Machine";
 }
-*/
 
-(gpa > 2.0) ? console.log("You graduate!") : console.log("GPA is too low.");
+console.log(book);
