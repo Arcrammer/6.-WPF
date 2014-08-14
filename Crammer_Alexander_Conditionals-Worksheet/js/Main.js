@@ -70,3 +70,5 @@ if(equalFront === equalRear) {
 	// Otherwise -- If the front and rear tyres aren't equal in PSI
 	console.log("Get your tires checked out!");
 }
+
+/* End */
