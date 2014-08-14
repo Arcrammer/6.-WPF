@@ -53,7 +53,8 @@ var pressures = Array(leftFrontPressure,rightFrontPressure,leftRearPressure,righ
 if(pressures[0] === pressures[1]) {
 	// If the front tyres have the same PSI
 	var equalFront = true;
-} else if() {
+}
+if(pressures[2] === pressures[3]) {
 	// If the rear tyres have the same PSI
 	var equalRear = true;
 } else {
@@ -62,4 +63,10 @@ if(pressures[0] === pressures[1]) {
 	var equalRear = false;
 }
 
+if(equalFront === equalRear) {
+	// If the front and rear tyres are equal in PSI
 
+} else {
+	// Otherwise -- If the front and rear tyres aren't equal in PSI
+
+}
