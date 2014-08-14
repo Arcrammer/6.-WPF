@@ -30,11 +30,11 @@ var passRecord = "cats and unicorns";
 
 if(username === usernameRecord) {
 	// Welcome the user -- If the username in the record was given
-	
+	console.log("Welcome, " + usernameRecord + "!");
 } else if(username != usernameRecord) {
 	// Tell the user they've entered a username which isn't in the record
-		
-} else if(pass != passRecord) {
+	console.log("User not found. Try again.");
+} else if(username === usernameRecord && pass != passRecord) {
 	// Tell the user they've entered a password which isn't in the record
-	
+	console.log("Password does not match our records");
 }
