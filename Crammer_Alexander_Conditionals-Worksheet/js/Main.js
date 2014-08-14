@@ -3,3 +3,8 @@
 	Thursday, 14 August, 2014
 	Conditionals Worksheet	*/
 
+// Celsius to Fahrenheit converter
+
+var degrees = prompt("Which tempurature would you like to convert?");
+var unit = prompt("Please enter 'F' to convert the previously entered tempurature to celsius, or 'C' to convert it to fahrenheit.");
+
