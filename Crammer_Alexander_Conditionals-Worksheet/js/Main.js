@@ -46,7 +46,8 @@ if(username === usernameRecord && pass === passRecord) /* I've just realised I'l
 
 var leftFrontPressure = prompt("Please enter the pressure for the left-front tyre.");
 var rightFrontPressure = prompt("Please enter the pressure for the right-front tyre.");
-var leftReadPressure = prompt("Please enter the pressure for the left-rear tyre.");
+var leftRearPressure = prompt("Please enter the pressure for the left-rear tyre.");
 var rightRearPressure = prompt("Please enter the pressure for the right-rear tyre.");
+var pressures = Array(leftFrontPressure,rightFrontPressure,leftRearPressure,rightRearPressure);
 
 
