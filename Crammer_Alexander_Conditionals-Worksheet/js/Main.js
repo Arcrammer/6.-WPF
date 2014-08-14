@@ -50,4 +50,12 @@ var leftRearPressure = prompt("Please enter the pressure for the left-rear tyre.
 var rightRearPressure = prompt("Please enter the pressure for the right-rear tyre.");
 var pressures = Array(leftFrontPressure,rightFrontPressure,leftRearPressure,rightRearPressure);
 
+if(pressures[0] === pressures[1]) {
+	// If the front tyres have the same PSI
+	var equalFront = true;
+} else if() {
+	// If the rear tyres have the same PSI
+	var equalRear = true;
+}
+
 
