@@ -5,3 +5,8 @@
 
 var oldEnough = true;
 
+// If the child is old enough we'll print to the console "You can ride."
+if(oldEnough) {
+	// If the condition is true
+	console.log("You can ride.");
+};
