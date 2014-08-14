@@ -3,3 +3,5 @@
 	Thursday, 14 August, 2014.
 	Screencast: Conditionals	*/
 
+var oldEnough = true;
+
