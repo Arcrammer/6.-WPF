@@ -5,8 +5,12 @@
 
 var GPA = 48
 
+/*
 if(GPA > 2.0) {
 	console.log("You graduate!");
 } else {
-	console.log("GPS is too low.");
+	console.log("GPA is too low.");
 }
+*/
+
+(gpa > 2.0) ? console.log("You graduate!") : console.log("GPA is too low.");
