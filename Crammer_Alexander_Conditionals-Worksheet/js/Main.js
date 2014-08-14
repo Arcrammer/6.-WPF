@@ -65,8 +65,8 @@ if(pressures[2] === pressures[3]) {
 
 if(equalFront === equalRear) {
 	// If the front and rear tyres are equal in PSI
-
+	console.log("The tires pass spec!");
 } else {
 	// Otherwise -- If the front and rear tyres aren't equal in PSI
-
+	console.log("Get your tires checked out!");
 }
