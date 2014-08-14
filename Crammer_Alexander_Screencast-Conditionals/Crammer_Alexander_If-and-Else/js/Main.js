@@ -10,7 +10,7 @@ var minHeight = 48;
 if(kidHeight > minHeight) /* If the kid is over 48 inches of height */ {
 	// If the condition is true
 	console.log("You can ride.");
-};
-if(kidHeight <= minHeight) {
+} else {
+	// Otherwise
 	console.log("Sorry, kid! You have some growing to do.");
 }
