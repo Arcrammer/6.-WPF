@@ -23,8 +23,18 @@ if(unit === "F") {
 
 // Check the Login
 
-var username = prompt("Username:");
-var pass = prompt("Password:");
+var username = prompt("Username:\t\t(\"BeautifulUsername\" is the valid username.)");
+var pass = prompt("Password:\t\t(\"cats and unicorns\" is the valid password.)");
 var usernameRecord = "BeautifulUsername";
 var passRecord = "cats and unicorns";
 
+if(username === usernameRecord) {
+	// Welcome the user -- If the username in the record was given
+	
+} else if(username != usernameRecord) {
+	// Tell the user they've entered a username which isn't in the record
+		
+} else if(pass != passRecord) {
+	// Tell the user they've entered a password which isn't in the record
+	
+}
