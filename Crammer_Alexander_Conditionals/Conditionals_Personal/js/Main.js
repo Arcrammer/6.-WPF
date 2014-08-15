@@ -5,7 +5,7 @@
 
 // Calculates how long a bag of coffee will last for daily coffee drinkers
 
-var packSize = prompt("How many pounds are in your bag of coffee?"); // Determines the size of the bag of coffee in pounds
+var packSize = prompt("How many ounces are in your bag of coffee?"); // Determines the size of the bag of coffee in ounces
 var brewingDaily = prompt("How many tablespoons are you brewing on a daily basis?"); // Determines the amount of coffee being brewed each day in tablespoons
 var weekendDrinker = prompt("Do you brew on the weekends? ('yes' or 'no')"); // Determines if the user drinks coffee during the weekends
 var weekendDrinker = weekendDrinker.toLowerCase();
@@ -16,4 +16,13 @@ if(weekendDrinker === "yes" || weekendDrinker === "true") {
 	weekendDrinker = false; // Set if the user doesn't drink coffee on the weekends
 }
 
+// There are 0.5 ounces in each US tablespoon
+/* Now we'll divide the amount of tablespoons and the amount of ounces in the bag of coffee to see how long it will
+   last as long as the user brews the input amount of tablespoons each day	*/
 
+if(weekendDrinker === false) {
+	// Calculation if the user does not brew coffee during the weekends
+} else if(weekendDrinker === true) {
+	// Calculation if the user does brew coffee during the weekends
+	
+}
