@@ -24,7 +24,9 @@ var eta = gallonsToFill / gpm; // Returns the amount of minutes it will take to 
 
 if(eta >= 60){
 	var eta = eta / 60; // Return the amount in hours and minutes if the pool will take more than 60 minutes to fill
-	console.log("It will take " + eta + " hours for the pool to fill.");
+	console.log("It will take " + eta + " hours for the pool to fill."); // Output if the pool will take longer than 60 minutes to fill
 } else if(eta < 60) {
-	console.log("It will take " + eta + " minutes for the pool to fill.");
+	console.log("It will take " + eta + " minutes for the pool to fill."); // Output if the pool will take less than 60 minutes to fill
+} else {
+	console.log("Look. You have to give me something to work with."); // Output if eta couldn't be determined because the user hasn't provided values
 }
