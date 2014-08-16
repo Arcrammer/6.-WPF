@@ -6,7 +6,19 @@
 // Calculates how long a bag of coffee will last for daily coffee drinkers
 
 var packSize = prompt("How many ounces are in your bag of coffee?"); // Determines the size of the bag of coffee in ounces
+
+if(packSize === "") {
+	console.log("You've forgotten to enter the amount of coffee in your pack."); // Alerts the user they haven't entered an amount of coffee in the pack
+	var packSize = prompt("How many ounces are in your bag of coffee?"); // Asks the user for the amount of coffee in the pack again
+}
+
 var brewingDaily = prompt("How many tablespoons are you brewing on a daily basis?"); // Determines the amount of coffee being brewed each day in tablespoons
+
+if(brewingDaily === "") {
+	console.log("You've forgotten to enter the amount of coffee you'll brew each day."); // Alerts the user they haven't entered an amount of coffee they'll brew each day
+	var brewingDaily = prompt("How many tablespoons are you brewing on a daily basis?"); // Asks the user for the amount of coffee they're brewing each day once more
+}
+
 var weekendDrinker = prompt("Do you brew on the weekends? ('yes' or 'no')"); // Determines if the user drinks coffee during the weekends
 var weekendDrinker = weekendDrinker.toLowerCase();
 
