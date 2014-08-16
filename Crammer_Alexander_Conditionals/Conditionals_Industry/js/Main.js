@@ -17,3 +17,5 @@ if(commits === "") {
 }
 
 var average = commits / days; // Returns the average amount of commits each day
+
+console.log("An average of " + average + " commits have been made each day."); // Provides the average to the user
