@@ -20,4 +20,4 @@ if(gpm === "") {
 	var gpm = prompt("How fast will the water fill the pool in gallons per second?"); // Prompts the user again in the case they've provided an empty string
 }
 
-
+var eta = gallonsToFill / gpm; // Returns the amount of minutes it will take to fill the pool
