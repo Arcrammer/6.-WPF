@@ -8,4 +8,12 @@
 var commits = prompt("How many commits have been made?"); // Asks the user for the total amount of commits to account for
 var days = prompt("How many days have passed between the first and last commits?"); // Asks the user for the amount of days between the first commit and last commit
 
+if(commits === "") {
+	console.log("You've forgotten to enter the amount of commits.");
+	var commits = prompt("How many commits have been made?"); // Asks the user for the total amount of commits to account for
+} else if(days === "") {
+	console.log("You've forgotten to enter the amount of days between the commits.");
+	var days = prompt("How many days have passed between the first and last commits?"); // Asks the user for the amount of days between the first commit and last commit
+}
+
 
