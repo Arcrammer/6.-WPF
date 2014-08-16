@@ -6,3 +6,6 @@
 // WACKY
 // Calculates the amount of water needed to fill a pool
 
+var gallonsToFill = prompt(); // Amount of water to fill the pool in gallons
+var gpm = prompt(); // Rate of water filling the pool in gallons per miniute
+
