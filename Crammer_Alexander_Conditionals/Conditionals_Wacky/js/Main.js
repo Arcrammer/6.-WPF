@@ -13,7 +13,7 @@ if(gallonsToFill === "") {
 	var gallonsToFill = prompt("How many gallons of water will you fill the pool with?"); // Prompts the user again in the case they've provided an empty string
 }
 
-var gpm = prompt("How fast will the water fill the pool in gallons per second?"); // Rate of water filling the pool in gallons per miniute
+var gpm = prompt("How fast will the water fill the pool in gallons per minute?"); // Rate of water filling the pool in gallons per miniute
 
 if(gpm === "") {
 	console.log("Please enter the speed of the water source which will fill the pool."); // Alert the user to provide a speed of the water source filling the pool
@@ -21,3 +21,7 @@ if(gpm === "") {
 }
 
 var eta = gallonsToFill / gpm; // Returns the amount of minutes it will take to fill the pool
+
+if(eta >= 60){
+	var eta = eta / 60; // Return the amount in hours and minutes if the pool will take more than 60 minutes to fill
+}
