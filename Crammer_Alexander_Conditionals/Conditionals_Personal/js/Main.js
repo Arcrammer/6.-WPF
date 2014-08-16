@@ -26,7 +26,9 @@ if(weekendDrinker === "yes" || weekendDrinker === "true") {
 if(weekendDrinker === false) {
 	// Calculation if the user does not brew coffee during the weekends
 	var willLast = 	packSize / (brewingDaily / 2); // Returns the amount of instances remaining in which the user will have enough coffee to brew another cup
+	console.log("You'll have enough coffee to brew " + brewingDaily + " tablespoons each day for " + willLast + " weeks.");
 } else if(weekendDrinker === true) {
 	// Calculation if the user does brew coffee during the weekends
 	willLast = (packSize / (brewingDaily / 2)) / 5; // Returns the amount of weeks the user will have enough coffee in the pack to brew another cup
+	console.log("You'll have enough coffee to brew " + brewingDaily + " tablespoons each day for " + willLast + " weeks.");
 }
