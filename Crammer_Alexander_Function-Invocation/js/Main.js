@@ -12,3 +12,5 @@ function calculateArea() {
 	area = width * height;
 	console.log(area);
 }
+
+calculateArea();
