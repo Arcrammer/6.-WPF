@@ -12,3 +12,5 @@ function calculateArea() {
 }
 
 calculateArea();
+
+console.log(width);
