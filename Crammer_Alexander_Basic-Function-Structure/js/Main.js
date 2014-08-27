@@ -6,3 +6,9 @@ function outputMsg() {
 	console.log("Hello, world.");
 }
 
+function calculateArea() {
+	width = 20;
+	height = 30;
+	area = width * height;
+	console.log(area);
+}
