@@ -4,6 +4,7 @@
 
 function calculateArea(w,h) {
 	area = w * h;
+	return area;
 }
 
 console.log(calculateArea(30,20);
