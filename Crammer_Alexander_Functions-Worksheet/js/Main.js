@@ -13,3 +13,7 @@ function findCircumference(circleRadius) {
 
 var whatsTheCircumference = findCircumference(radius); // Executes the 'findCircumference' function passing the value of the 'radius' variable returning the circumference of 'radius'value
 console.log("The circumference of the circle is " + whatsTheCircumference + "."); // Prints the returned value from the 'findCircumference()'
+
+// Stung!
+var victimsWeight = prompt("What is the victims' weight in pounds?"); // Prompt()'s the user for the victims' weight in pounds
+
