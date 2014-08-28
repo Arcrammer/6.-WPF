@@ -20,4 +20,4 @@ function totalAmountOfCupsConsumed(consumingDaily,spanOfDays) {
 	return consumingDaily * spanOfDays; // Returns the total amount of sugar consumed within the day span given
 }
 
-console.log(totalAmountOfCupsConsumed(dailyConsumption,daySpan)); // Outputs the total amoung by calling the named function 'totalAmountOfCupsConsumed()'
+console.log(totalAmountOfCupsConsumed(dailyConsumption,daySpan)); // Outputs the total amoung by calling the named function 'totalAmountOfCupsConsumed()' and passing the users' input to it
