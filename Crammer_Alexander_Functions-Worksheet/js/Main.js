@@ -7,8 +7,8 @@
 var radius = 64; // Radius of the circle of which we'll find the circumference
 
 function findCircumference(circleRadius) {
-	
-	return $someVariable; // Returns the result of the calculation from the function
+	calculatedCircumference = 2 * 3.14 * circleRadius; // Calculates the circumference of the input then stores its' value in the 'calculatedCircumference' variable
+	return 2; // Returns the result of the calculation from the function
 }
 
 var whatsTheCircumference = findCircumference(radius); // Executes the 'findCircumference' function passing the value of the 'radius' variable returning the circumference of 'radius'value
