@@ -4,7 +4,7 @@
 	Functions Worksheet		*/
 
 // Circumference
-var radius = 64; // Radius of the circle of which we'll find the circumference
+var radius = prompt("What is the radius of the circle you'd like to find the circumference for?"); // Radius of the circle of which we'll find the circumference
 
 function findCircumference(circleRadius) {
 	var calculatedCircumference = Math.round(2 * Math.PI * circleRadius); // Calculates the circumference of the input then stores its' value in the 'calculatedCircumference' variable
