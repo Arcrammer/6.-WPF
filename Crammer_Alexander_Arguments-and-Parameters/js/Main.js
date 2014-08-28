@@ -9,9 +9,12 @@
 
 calculateArea(30,20);	*/
 
-function dogYears(age) {
-	console.log("Sparky has " + dogYears + " human years.");
+function calculateAreaF(width,height) {
+	var area = width * height;
+	return area;
 }
 
-dogYears(4);
-dogYears(8);
+function calculateAreaP(width,height) {
+	var area = width * height;
+	console.log(area);
+}
