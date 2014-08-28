@@ -8,5 +8,8 @@ var uploadSpeed = prompt("What is your upload speed in Mbps?"); // Prompts the u
 var uploadFileSize = prompt("What is the size of the file you're uploading in Mb?"); // Prompts the user for their upload files' size
 
 if(uploadSpeed === "" || uploadSpeed === "  " || uploadSpeed === "   ") {
-	prompt("Please provide input:\n\nWhat is your upload speed in Mbps?");
+	prompt("Please provide input:\n\nWhat is your upload speed in Mbps?"); // Prompts the user for input if they've entered a few spaces or an empty string
+} else if(uploadFileSize === "" || uploadFileSize === "  " || uploadFileSize === "   ") {
+	var uploadFileSize = prompt("Please provide input:\n\nWhat is the size of the file you're uploading in Mb?"); // Prompts the user for input if they've entered a few spaces or an empty string
 }
+
