@@ -16,3 +16,7 @@ if(uploadFileSize === "" || uploadFileSize === "  " || uploadFileSize === "   ")
 	var uploadFileSize = prompt("Please provide input:\n\nWhat is the size of the file you're uploading in Mb?"); // Prompts the user for input if they've entered a few spaces or an empty string
 }
 
+/* Defining the function to provide the result of the calculation */
+function howLongWillItTakeToUploadTheFiles() {
+	
+}
