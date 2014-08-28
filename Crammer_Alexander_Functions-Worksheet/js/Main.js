@@ -12,4 +12,4 @@ function findCircumference(circleRadius) {
 }
 
 var whatsTheCircumference = findCircumference(radius); // Executes the 'findCircumference' function passing the value of the 'radius' variable returning the circumference of 'radius'value
-console.log(whatsTheCircumference); // Prints the returned value from the 'findCircumference()'
+console.log("The circumference of the circle is " + whatsTheCircumference + "."); // Prints the returned value from the 'findCircumference()'
