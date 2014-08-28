@@ -15,3 +15,9 @@ var daySpan = prompt("For how many days would you like to determine your total s
 if(isNaN(daySpan)) {
 	var daySpan = prompt("Please enter a numerical value:\n\nFor how many days would you like to determine your total sugar consumption?"); // Prompts the user to provide numerical input if anything beside a number has been provided
 }
+
+function totalAmountOfCupsConsumed() {
+	return dailyConsumption * daySpan; // Returns the total amount of sugar consumed within the day span given
+}
+
+
