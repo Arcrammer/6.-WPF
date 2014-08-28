@@ -24,6 +24,8 @@ function stung(weightOfTheVictim) {
 	
 	Although I've come across a source which says most victims can withstand around 10 stings from a bee
 	for every pound of their bodyweight, so I'll be using this information as a base for my calculation	*/
-	var variableWhichWouldLikelyBeBetterToStoreTheValueOfInTheReturnStatement = weightOfTheVictim / 50; // Calculates how many stings it would take to kill a victim based on their weight
+	var variableWhichWouldLikelyBeBetterToStoreTheValueOfInTheReturnStatement = weightOfTheVictim / 10; // Calculates how many stings it would take to kill a victim based on their weight
 	return variableWhichWouldLikelyBeBetterToStoreTheValueOfInTheReturnStatement; // Returns the amount of stings which can be withstood
 }
+
+console.log("It takes " + stung(victimsWeight) + " bee stings to kill this animal."); // Alerts the user of the amount of stings it will take to kill the victim based on their weight
