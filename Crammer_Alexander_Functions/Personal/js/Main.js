@@ -8,7 +8,7 @@ var amountOfDoggyFood = prompt("How many ounces of food do you have stored for y
 
 /* Checks for empty input for 'amountOfDoggyFood' */
 while(amountOfDoggyFood === "") {
-	var amountOfDoggyFood = prompt("How many ounces of food do you have stored for your doggy?");
+	var amountOfDoggyFood = prompt("Please provide input:\n\nHow many ounces of food do you have stored for your doggy?");
 
 }
 
@@ -16,5 +16,5 @@ var feedingEachDay = prompt("How many ounces are you feeding your doggy on a dai
 
 /* Checks for empty input for 'feedingEachDay' */
 while(feedingEachDay === "") {
-	var feedingEachDay = prompt("How many ounces are you feeding your doggy on a daily basis?");
+	var feedingEachDay = prompt("Please provide input:\n\nHow many ounces are you feeding your doggy on a daily basis?");
 }
