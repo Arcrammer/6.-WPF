@@ -18,6 +18,12 @@ console.log("The circumference of the circle is " + whatsTheCircumference + ".")
 var victimsWeight = prompt("What is the victims' weight in pounds?"); // Prompt()'s the user for the victims' weight in pounds
 
 function stung(weightOfTheVictim) {
+	/*	I seriously have no idea how to implement something to find how many stings it would take to kill
+	a victim based on their weight so here is some ridiculous math to show that I know how to perform a
+	calculation within a function then return the result. 
 	
+	Although I've come across a source which says most victims can withstand around 10 stings from a bee
+	for every pound of their bodyweight, so I'll be using this information as a base for my calculation	*/
+	var variableWhichWouldLikelyBeBetterToStoreTheValueOfInTheReturnStatement = weightOfTheVictim / 50; // Calculates how many stings it would take to kill a victim based on their weight
 	return void;
 }
