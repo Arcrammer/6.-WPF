@@ -17,6 +17,7 @@ if(uploadFileSize === "" || uploadFileSize === "  " || uploadFileSize === "   ")
 }
 
 /* Defining the function to provide the result of the calculation */
-function howLongWillItTakeToUploadTheFiles() {
-	
+function howLongWillItTakeToUploadTheFiles(speed,size) {
+	var howLongItWillTakeToUpload = size / speed; // Returns the amount of time it will take to upload the files in seconds to the variable 'howLongItWillTakeToUpload'
+	return howLongItWillTakeToUpload;
 }
