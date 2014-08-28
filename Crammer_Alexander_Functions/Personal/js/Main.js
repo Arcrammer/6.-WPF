@@ -29,3 +29,4 @@ var tidyResult = myFantasticAnonymousFunction(amountOfDoggyFood,feedingEachDay);
 (isNaN(tidyResult)) ? console.log("Are you sure you've provided numerical input in the prompts earlier?") : console.log("The amount of food you have stored will last " + tidyResult + " times."); // Unnecessary ternary, outputting the result
 
 /* I'm sorry this kind of goes along the coffee calculator idea. I'm the least creative person ever. */
+/* End Personal (Obviously. I mean, you're at the end of the document and there's no more text so...) */
