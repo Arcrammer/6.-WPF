@@ -2,8 +2,8 @@
 	Wednesday, 27 August, 2014
 	Web Programmng Fundamentals	*/
 
-var AnonymousFunctionName = function() {
-	
+var calculateArea = function(width * height) {
+	var area = width * height;
 }
 
-AnonymousFunctionName();
+console.log(calculateArea(20,30));
