@@ -14,3 +14,5 @@ function dogYears() {
 	var dogYears = age * 7;
 	console.log("Sparky has " + dogYears + " human years.");
 }
+
+dogYears();
