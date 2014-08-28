@@ -6,3 +6,6 @@
 // Circumference
 var radius = 64; // Radius of the circle of which we'll find the circumference
 
+function findCircumference() {
+	
+}
