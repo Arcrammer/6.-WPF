@@ -2,13 +2,10 @@
 	Wednesday, 27 August, 2014
 	Web Programmng Fundamentals	*/
 
-function outputMsg() {
-	console.log("Hello, world.");
-}
-
-function calculateArea() {
-	width = 20;
-	height = 30;
-	area = width * height;
+function calculateArea(w,h) {
+	area = w * h;
 	console.log(area);
 }
+
+calculateArea(30,20);
+
