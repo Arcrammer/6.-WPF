@@ -9,10 +9,8 @@
 
 calculateArea(30,20);	*/
 
-function dogYears() {
-	var age = 4;
-	var dogYears = age * 7;
+function dogYears(age) {
 	console.log("Sparky has " + dogYears + " human years.");
 }
 
-dogYears();
+dogYears(4);
