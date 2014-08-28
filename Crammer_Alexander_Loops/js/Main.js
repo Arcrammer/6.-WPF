@@ -20,3 +20,10 @@ do {
 } while(c > 0) // do() will be performed as long as 'c' is greater than '0'
 
 /* COMPLETED 'DO WHILE LOOPS' */
+/* BEGIN 'FOR LOOPS' */
+
+for(i = 0;i > 0;i--) {
+	console.log(i);
+}
+
+/* COMPLETED 'FOR LOOPS' */
