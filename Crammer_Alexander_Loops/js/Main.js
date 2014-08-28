@@ -10,3 +10,13 @@ while (b > 0) {
 }
 
 /* COMPLETED 'WHILE LOOPS' */
+/* BEGIN 'DO WHILE LOOPS' */
+
+var c = 10;
+
+do {
+	console.log(c);
+	c--; // Prevent an infinite loop by counting down
+} while(c > 0) // do() will be performed as long as 'c' is greater than '0'
+
+/* COMPLETED 'DO WHILE LOOPS' */
