@@ -17,3 +17,7 @@ console.log("The circumference of the circle is " + whatsTheCircumference + ".")
 // Stung!
 var victimsWeight = prompt("What is the victims' weight in pounds?"); // Prompt()'s the user for the victims' weight in pounds
 
+function stung(weightOfTheVictim) {
+	
+	return void;
+}
