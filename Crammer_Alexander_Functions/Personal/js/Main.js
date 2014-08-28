@@ -20,7 +20,7 @@ while(feedingEachDay === "") {
 }
 
 var myFantasticAnonymousFunction = function(foodStored,feedingDaily) {
-	var amountOfDaysTheFoodWillLast = ; // Returns the amount of time the dog food will last if the user continues the same feeding pattern
+	var amountOfDaysTheFoodWillLast = foodStored / feedingDaily; // Returns the amount of time the dog food will last if the user continues the same feeding pattern
 }
 
 /* I'm sorry this kind of goes along the coffee calculator idea. I'm the least creative person ever. */
