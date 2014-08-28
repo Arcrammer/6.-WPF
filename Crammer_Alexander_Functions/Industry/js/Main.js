@@ -35,10 +35,10 @@ function howLongWillItTakeToUploadTheFiles(speed,size,patience) {
 	if(patience === true) {
 		var output = console.log("It will take " + howLongItWillTakeToUpload + " minutes to upload the files. Because you're patient, you'll have no problem waiting through this time for the files to upload!"); // Output if the user is patient
 	} else if(patience === false) {
-		var output = console.log("It will take " + howLongItWillTakeToUpload + " minutes to upload the files. Because you're nbot patient, you'll have some issues waiting through this time for the files to upload, so I suggest you take a minute to relax and chill out!"); // Output if the user is not patient
+		var output = console.log("It will take " + howLongItWillTakeToUpload + " minutes to upload the files. Because you're not patient, you'll have some issues waiting through this time for the files to upload, so I suggest you take a minute to relax and chill out!"); // Output if the user is not patient
 
 	}
-	return output;
+	return output; // Returns the value of the variable 'output', which was declared in the last statement
 }
 
 howLongWillItTakeToUploadTheFiles(uploadSpeed,uploadFileSize,usersPatience); // Calling the function which also outputs the result of the calculation to the console
